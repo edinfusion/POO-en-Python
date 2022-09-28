@@ -45,3 +45,8 @@ carronuevoi.Estado() #se llama al metodo Estado del objeto carronuevoi
 carronuevoi.Detener() #se llama al metodo Detener del objeto carronuevoi
 carronuevoi.Estado() #se llama al metodo Estado del objeto carronuevoi
 print("Largo del automovil: ",carronuevoi.LargodeChasis) #se accede a la propiedad LargodeChasis del objeto carronuevoi
+
+print("Este es un nuevo automovil")
+#se crea un nuevo objeto o nueva instancia de tipo carro
+carronuevoii = Carro() #se crea un objeto de tipo carro
+carronuevoii.Estado()
